@@ -1,0 +1,35 @@
+<div class="container">
+  <b style="color: black">FLIGHT DETAILS</b>
+</div>
+
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th>Flight No</th>
+        <th>Origin</th>
+        <th>Destination</th>
+        <th>NoOfSeats</th>
+        <th>Depature </th>
+        <th>Arrival</th>
+        <th>Fare</th>
+        <th>Book</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let f of flst;">
+        <td>{{f.flightNo}}</td>
+        <td>{{f.origin}} </td>
+        <td>{{f.destination}}</td>
+        <td>{{f.noOfSeats}}</td>
+        <td>{{f.depature.slice(0,f.depature.length-9)}}</td>
+        <td>{{f.arrival.slice(0,f.arrival.length-9)}}</td>
+        <td>{{f.fare}}</td>
+        <td><button class='myclass' type='button' value='Book' (click)="reservation(f.flightNo)" >Book</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+

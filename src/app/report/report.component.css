@@ -1,0 +1,52 @@
+.container
+{
+    padding: 16px;
+    width: 30%;
+    font-size: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button
+{
+    
+    color:darkturquoise;
+    font-size:large;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container1
+{
+    color:black;
+    font-size:large;
+    background-color: #C9EEFF;
+    display:flex;
+    flex-direction: column;
+    max-width: fit-content;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+
+
+/* .description
+{
+    font-size: medium;
+    border: none;
+    background: #EDC6B1;
+    height: 100%;
+ 
+} */
+/* .card
+{
+    background-color:#FFF3E2;
+    
+} */
+

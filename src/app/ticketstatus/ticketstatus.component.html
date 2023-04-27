@@ -1,0 +1,14 @@
+
+<form class="container">
+    <p>Check Ticket Status</p>
+    <label for="tckid">Ticket Id:</label><br>
+    <input type="text" id="tckid" name="tckid" [(ngModel)]="TicketId"><br>
+    
+<div class="button">
+    <button type="submit" class="btn btn-warning text-black" (click)="showstatus()">Check Status</button>
+</div><br>
+
+<div class="container1" *ngIf="TcktStatus.status!=null">
+    <p>Your Ticket status is {{TcktStatus.status}}</p>
+
+</div>

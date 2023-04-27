@@ -1,0 +1,128 @@
+#form{
+    background-color: white;
+    height:300px;
+    width:700px;
+    margin-left: 25%;
+    margin-right: auto;
+    padding:20px;
+    opacity: 0.7;
+    border:1px solid #ccc;
+    
+}
+#form h3{
+   
+    width:220px;
+    padding: 5px;
+}
+::placeholder{
+    color:black
+}
+#input #input-group{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:black
+}
+#input2 #input-group{
+    width:195px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:white
+}
+#input3 #input-group{
+    margin-left: 50px;
+}
+#input4 #input-group{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:white
+}
+#input4 #input-group1{
+    width:615px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+#input5 h3{
+    
+    width:220px;
+    padding: 5px;
+    display: flex;
+    
+}
+#input6 #input-group{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+#input6 #input-group1{
+    width:615px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: sans-serif;
+    background: linear-gradient(104deg, white, white);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .btn{
+    color: #fff;
+    background-color: green;
+    font-size: 13px;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+   
+  }
+  .btn:hover{
+    background-color: green;
+  }
+
+
+
+
+

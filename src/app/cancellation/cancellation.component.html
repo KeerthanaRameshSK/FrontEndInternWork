@@ -1,0 +1,12 @@
+<form class="container">
+    <p>CANCELLATION</p>
+    <label for="tckid">Ticket Id:</label><br>
+    <input type="text" id="tckid" name="tckid" [(ngModel)]="TicketId"><br>
+    
+<div class="button">
+    <button type="submit" class="btn btn-warning text-black" (click)="cancel()">Cancellation</button>
+</div>
+
+<div class="container1">
+    <p *ngIf="flag!=false">Your ticket is cancelled and Your Refund Amount is {{RefundAmount}}</p>
+</div>

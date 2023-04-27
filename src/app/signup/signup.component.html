@@ -1,0 +1,39 @@
+<form #form="ngForm" (ngSubmit)="signupUser()">
+  <div class="container2">
+    <b style="color: black">Welcome To CG Airline</b>
+
+</div>
+    <div class="container">
+        <div>
+            <label for="username"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="username" required [(ngModel)]="signupRequest.Username">
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required [(ngModel)]="signupRequest.Password">
+      
+            <label for="psw"><b>Confirm Password</b></label>
+            <input type="password" placeholder="Confirm Password" name="psw" required [(ngModel)]="signupRequest.ConfirmPassword">
+
+            <label for="FirstName"><b>First Name</b></label>
+            <input type="text" placeholder="Enter Firstname" name="FirstName" required [(ngModel)]="signupRequest.FirstName">
+        
+            <label for="LastName"><b>Last Name</b></label>
+            <input type="text" placeholder="Enter Lastname" name="LastName" required [(ngModel)]="signupRequest.LastName">
+        
+            <label for="mobnum"><b>Mobile Number</b></label>
+            <input type="text" placeholder="Enter Mobile number" name="mobnum" required [(ngModel)]="signupRequest.MobileNo">
+        
+            <label for="email"><b>Email Id</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required [(ngModel)]="signupRequest.Email">
+        
+            <label for="role"><b>Role</b></label>
+            <input type="text" placeholder="Enter Role" name="role" required [(ngModel)]="signupRequest.Role">
+        
+
+        </div>
+
+      <button type="submit">Sign Up</button>
+
+     
+    </div>
+</form>

@@ -1,0 +1,59 @@
+<form #form (ngSubmit)="addFlights()">
+    <div class="title">
+        <p>Add new Flight</p>
+    </div>
+    
+ <div class="container">
+    <div>
+        <label for="dep"><b>FlightNo : </b></label>
+        <input type="number"  name="dep" [(ngModel)]="Flights.FlightNo">
+    </div>
+
+    <div>
+        <label for="dep"><b>Origin : </b></label>
+        <input type="text"  name="dep" [(ngModel)]="Flights.Origin">
+    </div>
+
+    <div>
+        <label for="dep"><b>Destination : </b></label>
+        <input type="text"  name="dep" [(ngModel)]="Flights.Destination">
+    </div>
+
+    <div>
+        <label for="dep"><b>NoOfSeats : </b></label>
+        <input type="text"  name="dep" [(ngModel)]="Flights.NoOfSeats">
+    </div>
+    
+    <div>
+        <label for="dep"><b>Depature : </b></label>
+        <input type="date"  name="dep" [(ngModel)]="Flights.Depature">
+    </div>
+
+    <div>
+        <label for="dep"><b>Depature_Time : </b></label>
+        <input type="time"  name="dep" [(ngModel)]="Flights.DepatureTime">
+
+    </div>
+
+    <div>
+        <label for="dep"><b>Arrival : </b></label>
+        <input type="date"  name="dep" [(ngModel)]="Flights.Arrival">
+
+    </div>
+
+    <div>
+        <label for="dep"><b>Arrival_Time : </b></label>
+        <input type="time"  name="dep" [(ngModel)]="Flights.ArrivalTime">
+    </div>
+
+    <div>
+        <label for="dep"><b>Fare : </b></label>
+        <input type="number"  name="dep" [(ngModel)]="Flights.Fare">
+    </div>
+
+    <button type="submit">SUBMIT</button>
+
+ </div>
+
+</form>
+ 

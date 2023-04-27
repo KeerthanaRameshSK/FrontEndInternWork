@@ -1,0 +1,114 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@500;700&family=Ubuntu:wght@500;700&display=swap');
+#team {
+    background: transparent !important;
+}
+
+section {
+    padding: 60px 0;
+
+}
+
+section .section-title {
+    text-align: center;
+    color: #009FBD;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    background-color: transparent;
+    
+}
+
+#team .card {
+    border: none;
+    background: #EDC6B1;
+    
+}
+
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #009FBD !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.h1 {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    
+}
+
+.btn btn-dark {
+    margin-top: 36px;
+    margin-bottom: 45px;
+    border: none;
+  
+    }
+.btn btn-dark:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+
+}
+.card-content{
+    display: flex;
+    align-items: left;
+}
+
+
+.container
+{
+    background-color:#FFF3E2;
+    text-align: center; 
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    margin-bottom: 50px
+}
+.profile img 
+{
+    width: 68px;
+    height: 68px;
+    border-radius: 50%
+}
+.card 
+{
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  
+    
+}
+.card-body 
+{
+    position: relative;
+    bottom: 10px;
+    
+    
+}
+.card-title
+{
+    color: #009FBD;
+}
+.profile
+{
+    background-color: #EDC6B1;
+
+}
+.text-muted
+{
+    font-size:medium;
+    color: black;
+
+}
+.card-subtitle
+{
+    font-size:medium;
+    color: black;
+}
+   
+    

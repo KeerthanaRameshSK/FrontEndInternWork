@@ -1,0 +1,64 @@
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+.carousel-item>img
+{
+    width: 140px;
+    height: 50px;
+}
+
+
+
+#parent{
+    position: relative;
+
+} 
+
+
+
+.btn.btn-primary {
+    
+    background-color: green;
+    color: white;
+    padding: 14px 20px ;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    text-align: center;
+    display: inline;
+           
+}
+
+.btn
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.card{
+    background-color: #C9EEFF;
+    /* var(--card-color); */
+    border: 0;
+
+}
+.Details
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+
+

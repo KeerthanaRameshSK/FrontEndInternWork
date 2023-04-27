@@ -1,0 +1,43 @@
+.container
+{
+    padding: 16px;
+    width: 100%;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button
+{
+    padding: 16px;
+    width: 100%;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1
+{
+    padding: 16px;
+    width: 100%;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1
+{
+    padding: 16px;
+    width: 100%;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
